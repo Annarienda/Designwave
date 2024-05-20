@@ -1,0 +1,119 @@
+body{
+font-family: 'Courier New', Courier, monospace;
+margin:0;
+padding:0;
+background-color:beige;
+}
+
+header{
+    background-color: aquamarine;
+    color:beige;
+    padding: 10px 0;
+}
+header nav{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+header nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+header nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration:none ;
+}
+main{
+    padding: 20px;
+}
+section{
+    margin-bottom: 20px;
+}
+#hero {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 50px 20px;
+}
+#hero h1{ 
+    margin: 0%;
+    font-size: 2.5em;
+}
+#hero p{
+    margin: 10px 0 20px;
+    font-size: 1.2em;
+}
+.cta-button{
+    background-color:darkmagenta;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cta-button:hover{
+    background-color:aquamarine; 
+}
+.service{
+    background-color: beige ;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.service h2{
+     margin-top: 0;
+}
+ .service h3{
+    margin-top: 0;
+}
+#portfolio .project img{
+    width: 100%;
+    height: auto;
+}
+#portfolio .project {
+    margin-bottom: 20px;  
+}
+#contact form{
+    background-color:whitesmoke ;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1) ;
+}
+#contact form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact form input, #contact form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#contact form button{
+    background-color: darkmagenta;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#contact form button: :hover{
+    background-color: aquamarine;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
